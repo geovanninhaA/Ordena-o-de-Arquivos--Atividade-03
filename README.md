@@ -1,3 +1,30 @@
+# 🛒 Sistema de Gerenciamento de Produtos em C
+
+Este é um **sistema completo de gerenciamento de produtos**, feito inteiramente em **C**, utilizando **arquivos de texto** (`.txt`) para armazenar as informações dos produtos.  
+Com ele, é possível **cadastrar, listar, editar e excluir produtos**, além de **ordenar os produtos por nome ou preço** com base em sua preferência.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ **Cadastrar produtos**
+- ✅ **Listar produtos com opções de ordenação**
+  - Nome (A–Z)
+  - Nome (Z–A)
+  - Preço (menor → maior)
+  - Preço (maior → menor)
+- ✅ **Editar produtos por ID**
+- ✅ **Excluir produtos por ID**
+- ✅ **Armazenamento permanente** no arquivo `produtos.txt`
+
+---
+
+## ⚙️ Como compilar e executar
+
+### Compilação
+```bash
+gcc sistema_produtos.c -o sistema
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
